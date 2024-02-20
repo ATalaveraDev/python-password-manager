@@ -1,9 +1,7 @@
 from tkinter import *
 from tkinter import messagebox
 import json
-# ---------------------------- PASSWORD GENERATOR ------------------------------- #
 
-# ---------------------------- SAVE PASSWORD ------------------------------- #
 def search():
     try:
         with open("entries.json", "r") as data_file:
